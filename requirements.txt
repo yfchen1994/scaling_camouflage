@@ -1,0 +1,3 @@
+Pillow
+opencv-python
+tensorflow-gpu==1.14.0
