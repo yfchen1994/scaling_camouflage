@@ -105,7 +105,7 @@ if __name__ == '__main__':
 
     if len(args.outputImg) > 0:
         attackImg = utils.imgLoader(args.attackImg,1)
-        outputImg = rf._resize(attackImg, (targetImg.shape[0], targetImg.shape[1]))
+        outputImg = sc._resize(attackImg, (targetImg.shape[0], targetImg.shape[1]))
         utils.imgSaver(args.outputImg, outputImg)
 
     time_cost = time.time() - start_time
