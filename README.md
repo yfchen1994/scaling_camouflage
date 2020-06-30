@@ -1,4 +1,4 @@
-## Camouflage Scaling Attack against Computer Vision Applications
+## Scaling Attack against Computer Vision Applications
 ---
 ### Usage
 * python ./attack.py --sourceImg <source image path>
