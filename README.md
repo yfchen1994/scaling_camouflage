@@ -31,8 +31,8 @@
     
       Image.Image.resize -> Image.NEAREST
                             Image.LANCZOS
-    	        	            Image.BILINEAR
-    	        	            Image.BICUBIC
+    	        	        Image.BILINEAR
+    	        	        Image.BICUBIC
 ### References
 * [Seeing is Not Believing: Camouflage Attacks on Image Scaling Algorithms (USENIX Security '19)](https://www.usenix.org/conference/usenixsecurity19/presentation/xiao)
 * [Scaling Camouflage: Content Disguising Attack Against Computer Vision Applications](https://ieeexplore.ieee.org/abstract/document/8982037)
