@@ -1,1 +1,2 @@
 python ./attack.py --sourceImg 4.jpg --targetImg 7.png --outputImg 4to7_output.jpg --attackImg 4to7.jpg --resizeFunc cv2.resize --interpolation cv2.INTER_LINEAR --penalty 0.1 --imageFactor 255 --norm l0
+python ./attack.py --sourceImg sheep.jpg --targetImg wolf.jpg --outputImg sheep_to_wolf_output.jpg --attackImg sheep_to_wolf.jpg --resizeFunc cv2.resize --interpolation cv2.INTER_LINEAR --penalty 1 --imageFactor 255 --norm l2
