@@ -1,13 +1,13 @@
 ## Scaling Attack against Computer Vision Applications
 ### Introduction
 
-The scaling attack exploits the information loss phenomena in the image down-scaling process. It aims to hide a small target image into a large source image (in our example, we hide a 229 $\times$ 229 wolf image into a 1800 $\times$ 1200 sheep image). After down-scaling, these "sheep" pixels are discarded, while the "wolf" image gets recovered and fed into downstream computer vision applications. As a result, a sheep image to human eyes will be classified as a wolf by computers.
+The scaling attack exploits the information loss phenomena in the image down-scaling process. It aims to hide a small target image into a large source image (in our example, we hide a 229\*229 wolf image into a 1800\*1200 sheep image). After down-scaling, these "sheep" pixels are discarded, while the "wolf" image gets recovered and fed into downstream computer vision applications. As a result, a sheep image to human eyes will be classified as a wolf by computers.
 
 <p align="center">
 <img src="./concept.jpg" alt="Concept of the Scaling Attack" height="300px">
 </p>
 
-For more details, please refer to our [USEXNI Security][https://www.usenix.org/conference/usenixsecurity19/presentation/xiao] and [TDSC][https://ieeexplore.ieee.org/abstract/document/8982037] paper.
+For more details, please refer to our [USEXNI Security](https://www.usenix.org/conference/usenixsecurity19/presentation/xiao) and [TDSC](https://ieeexplore.ieee.org/abstract/document/8982037) paper.
 
 ### Getting Started
 #### Setup:
@@ -49,19 +49,19 @@ python ./attack.py --help
     </tr>
     <tr>
         <td rowspan="5">cv2.resize</td>
-        <td>cv2.INTER\_NEAREST</td>
+        <td>cv2.INTER_NEAREST</td>
     </tr>
     <tr>
-        <td>cv2.INTER\_LINEAR</td>
+        <td>cv2.INTER_LINEAR</td>
     </tr>
     <tr>
-        <td>cv2.INTER\_CUBIC</td>
+        <td>cv2.INTER_CUBIC</td>
     </tr>
     <tr>
-        <td>cv2.INTER\_AREA</td>
+        <td>cv2.INTER_AREA</td>
     </tr>
     <tr>
-        <td>cv2.INTER\_LANCZOS4</td>
+        <td>cv2.INTER_LANCZOS4</td>
     </tr>
     <tr>
         <td rowspan="4">Image.Image.resize</td>
