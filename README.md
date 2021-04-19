@@ -20,15 +20,16 @@ chmod +x setup.sh
 
 #### Run the attack
 ```
-python ./attack.py --sourceImg <source image path>
-                   --targetImg <target image path>
-		               --attackImg <where to save the attack image>
-		               --outputImg <output image path>
-                   --norm <choose $L_p$ attack norm to use>
-		               [--resizeFunc <resizing function>]
-		               [--interpolation <interpolation method>]
-		               [--penalty <constant $c$ set in the attack>]
-		               [--imageFactor <factor used to scale image pixel value to [0,1]>.]
+python ./attack.py \
+--sourceImg <source image path> \
+--targetImg <target image path> \
+--attackImg <where to save the attack image> \
+--outputImg <output image path> \
+--norm <choose $L_p$ attack norm to use> \
+[--resizeFunc <resizing function> \]
+[--interpolation <interpolation method> \]
+[--penalty <constant $c$ set in the attack> \]
+[--imageFactor <factor used to scale image pixel value to [0,1]> \]
 ```
 For example, you can run this:
 ```
