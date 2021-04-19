@@ -1,4 +1,5 @@
 ## Scaling Attack against Computer Vision Applications
+
 ### Introduction
 
 The scaling attack exploits the information loss phenomena in the image down-scaling process. It aims to hide a small target image into a large source image (in our example, we hide a 229\*229 wolf image into a 1800\*1200 sheep image). After down-scaling, these "sheep" pixels are discarded, while the "wolf" image gets recovered and fed into downstream computer vision applications. As a result, a sheep image to human eyes will be classified as a wolf by computers.
@@ -9,6 +10,7 @@ The scaling attack exploits the information loss phenomena in the image down-sca
 
 For more details, please refer to our [USEXNI Security](https://www.usenix.org/conference/usenixsecurity19/presentation/xiao) and [TDSC](https://ieeexplore.ieee.org/abstract/document/8982037) paper.
 
+---
 ### Getting Started
 #### Setup:
 ```
@@ -78,11 +80,13 @@ python ./attack.py --help
     </tr>
 </table>
 
+---
 ### Publications 
 [1] _Qixue Xiao\*, Yufei Chen\*, Chao Shen, Yu Chen, and Kang Li._ [Seeing is Not Believing: Camouflage Attacks on Image Scaling Algorithms](https://www.usenix.org/conference/usenixsecurity19/presentation/xiao), (USENIX Security '19) (*: co-first author)
 
 [2] _Yufei Chen, Chao Shen, Cong Wang, Qixue Xiao, Kang Li, and Yu Chen._ [Scaling Camouflage: Content Disguising Attack Against Computer Vision Applications](https://ieeexplore.ieee.org/abstract/document/8982037) (IEEE TDSC)
 
+---
 ### Citations
 ```
 @inproceedings {xiao2019_usenix,
