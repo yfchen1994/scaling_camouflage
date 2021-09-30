@@ -101,11 +101,12 @@ month = aug,
 }
 
 @article{chen2020_tdsc,
-author={Yyufei Chen and Chao Shen and Cong Wang and Qixue Xiao and Kang Li and Yu Chen},
+author={Yufei Chen and Chao Shen and Cong Wang and Qixue Xiao and Kang Li and Yu Chen},
 journal={IEEE Transactions on Dependable and Secure Computing}, 
 title={Scaling Camouflage: Content Disguising Attack Against Computer Vision Applications}, 
-year={2020},
-pages={1-1},
-doi={10.1109/TDSC.2020.2971601}
-}
+year={2021},
+volume={18},
+number={5},
+pages={2017-2028},
+doi={10.1109/TDSC.2020.2971601}}
 ```
