@@ -8,7 +8,7 @@ The scaling attack exploits the information loss phenomena in the image down-sca
 <img src="./concept.jpg" alt="Concept of the Scaling Attack" height="300px">
 </p>
 
-For more details, please refer to our [USEXNI Security](https://www.usenix.org/conference/usenixsecurity19/presentation/xiao) and [TDSC](https://ieeexplore.ieee.org/abstract/document/8982037) paper.
+For more details, please refer to our [USENIX Security](https://www.usenix.org/conference/usenixsecurity19/presentation/xiao) and [TDSC](https://ieeexplore.ieee.org/abstract/document/8982037) paper.
 
 ---
 ### Getting Started
